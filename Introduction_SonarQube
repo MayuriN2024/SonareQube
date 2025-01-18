@@ -1,5 +1,13 @@
 SonarQube
 ---------------------------------
+SonarQube (previously Called Sonar) is an open source software quality management tool
+It will continuously analyze and measures quality of the source code. 
+It will generate the report if any issues in html format /PDF format
+It is a web based tool supports multiple languages (java, c#, js)
+It will support multi OS platform (Windows, MAC, linux )
+It will support multiple databases (MySQL, oracle Microsoft SQL Servere, postgress)
+supports multiple browsers (IE, Microsoft Edge, FF, Chrome, Safari)
+============================================================================
 Code Quality Checking Tool
 Using SonarQube we can perform code review to identify developers mistakes in the code
 SonarQube s/w developed by using java language
