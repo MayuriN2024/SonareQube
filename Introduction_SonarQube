@@ -1,0 +1,41 @@
+SonarQube
+---------------------------------
+Code Quality Checking Tool
+Using SonarQube we can perform code review to identify developers mistakes in the code
+SonarQube s/w developed by using java language
+SonarQube supports 30+ programming Languages to perform code Review 
+Using SonarQube we can generate code Review Report
+Devops team is responsibel to generate project code Review Report and share it with development team.
+
+Note: Developmentis responsible to fix sonar issues.
+Note: Code Review is part of project build process.
+
+=========================================================================================
+Sonar Issues:
+===================================================
+SonarQube server will identify below types of issues in the project
+  Bugs (danger, It will harm our code execution)
+  Vulnerabilities (Security hotspots)
+  Code Smells (not danger but week design in program)
+  Duplicate Code Blocks (Repeated Code)
+  code coverage (how many lines of code is tested in unit testing)
+
+
+=========================================================================================
+Sonar Quality Profiles
+=========================================================================================
+Quality Profile: Set of rules ot perform code review
+
+-- In SonarQube, for every language one Quality Profile is available with set of rules to perform code review.
+
+--When we perform code review using sonar then it will identify our project developed using which language based on that it will execute that language specific quality profile to perform code review.
+
+      eg. Java Project ----------------> java Quality profile ------> Java Rules 
+          Python Project --------------------> python Quality profile -------------> python Rules
+          PhP --------------------------------> PHP Quality Profile ------> PHP Rules.
+
+===============================================================================================
+Sonar Quality Gate
+===============================================================================================
+Quality Gate Represents overall project code quality is passed or failed 
+Note: If code Quality Gate 
